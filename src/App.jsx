@@ -11,7 +11,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/layouts/Navbar';
-import Homa from './components/Homa';
+import Home from './components/Home';
 import Header from './components/layouts/Header';
 import Footer from './components/layouts/Footer';
 import Newsletter from './components/layouts/Newsletter';
@@ -24,7 +24,7 @@ const App = () => {
           <Header />
             <Navbar />
             <Routes>
-                <Route path="/" element={<Homa />} />
+                <Route path="/" element={<Home />} />
                 
             </Routes>
             <Newsletter />
@@ -34,4 +34,4 @@ const App = () => {
 };
 
 // ReactDOM.render(<App />, document.getElementById('root'));
-export default App
+export default App 
