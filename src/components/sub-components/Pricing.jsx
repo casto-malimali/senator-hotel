@@ -11,8 +11,8 @@ function Pricing() {
                 <h5 className="position-relative d-inline-block text-primary text-uppercase">Pricing Plan</h5>
                 <h1 className="display-5 mb-0">We Offer Fair Prices for Our Rooms</h1>
               </div>
-              <p className="mb-4">Senetor We give you more of what you want and less of what you don't need, Also We Share a grand experience.</p>
               <h5 className="text-uppercase text-primary wow fadeInUp" data-wow-delay="0.3s">Call for Booking Now</h5>
+              <p className="mb-4">Senetor We give you more of what you want and less of what you don't need, Also We Share a grand experience.</p>
               <h1 className="wow fadeInUp" data-wow-delay="0.6s">+255 766 007 599</h1>
             </Col>
             <Col lg={7}>
