@@ -14,6 +14,7 @@ import StandardSuiteRoom from './components/StandardSuiteRoom';
 import ExecutiveTwin from './components/ExecutiveTwin';
 import ExecutiveRoom from './components/ExecutiveRoom'
 import Superior from './components/Superior';
+import MapDirection from './components/MapDirection';
 
 
 
@@ -32,8 +33,12 @@ const App = () => {
                 <Route path='/triple-rooms' element={<TripleRoom />} />
                 <Route path='/superior-standard-room' element={<StandardSuiteRoom />} />
                 <Route path='/executive-room' element={<ExecutiveRoom />   } />
-                <Route path='/executive-twin-rooms' element={<ExecutiveTwin />} />
+                {/* Rooms with error  */}
+                <Route path='/executive-twin-room' element={<ExecutiveTwin />} /> 
                 <Route path='/superior-standard-room-double' element={<Superior />} />
+                {/* map and direction  */}
+
+                <Route path='/map-direction' element={<MapDirection /> } />
 
             </Routes>
             <Newsletter />
@@ -43,5 +48,4 @@ const App = () => {
     );
 };
 
-// ReactDOM.render(<App />, document.getElementById('root'));
 export default App 
