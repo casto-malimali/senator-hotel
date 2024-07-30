@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Offer() {
   return (
@@ -9,7 +10,7 @@ function Offer() {
           <div className="col-lg-7 wow zoomIn" data-wow-delay="0.6s">
             <div className="offer-text text-center rounded p-5">
               <h1 className="display-5 text-white">Offer 10% On Your First Time To Book Senator Hotel</h1>
-              <a href="appointment.html" className="btn btn-dark py-3 px-5 me-3">Book Now</a>
+              <Link to="/appointment" className="btn btn-dark py-3 px-5 me-3">Book Now</Link>
             </div>
           </div>
         </div>

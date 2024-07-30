@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 
 
 const Service = () => {
@@ -22,9 +24,9 @@ const Service = () => {
                     <img className="img-fluid" src={room.imgSrc} alt={room.alt} />
                   </div>
                   <div className="position-relative bg-light rounded-bottom text-center p-4">
-                    <a href={room.link}>
+                    <Link to={room.link}>
                       <h5 className="m-0">{room.title}</h5>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               ))}
@@ -40,9 +42,9 @@ const Service = () => {
                     <img className="img-fluid" src={room.imgSrc} alt={room.alt} />
                   </div>
                   <div className="position-relative bg-light rounded-bottom text-center p-4">
-                    <a href={room.link}>
+                    <Link to={room.link}>
                       <h5 className="m-0">{room.title}</h5>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               ))}
@@ -64,42 +66,42 @@ const roomData = [
   {
     imgSrc: "img/service-1.jpg",
     alt: "Superior Standard Room",
-    link: "Superior-Standard-Room.html",
+    link: "/superior-standard-room",
     title: "Superior Standard Room",
     delay: "0.6s",
   },
   {
     imgSrc: "img/service-2.jpg",
     alt: "Executive Room",
-    link: "Executive-Room.html",
+    link: "/executive-room",
     title: "Executive Room",
     delay: "0.9s",
   },
   {
     imgSrc: "img/service-3.jpg",
     alt: "Suite Room",
-    link: "Sweet-Room.html",
+    link: "/suite-room",
     title: "Suite Room",
     delay: "0.9s",
   },
   {
     imgSrc: "img/service-1.jpg",
     alt: "Superior Standard Room",
-    link: "Superior-Standard-Room.html",
+    link: "/superior-standard-room",
     title: "Superior Standard Room",
     delay: "0.6s",
   },
   {
     imgSrc: "img/service-2.jpg",
     alt: "Executive Twin Rooms",
-    link: "Executive-Twin-Rooms.html",
+    link: "/executive-twin-rooms",
     title: "Executive Twin Rooms",
     delay: "0.9s",
   },
   {
     imgSrc: "img/service-2.jpg",
     alt: "Triple Rooms",
-    link: "Triple-Rooms.html",
+    link: "/triple-rooms",
     title: "Triple Rooms",
     delay: "0.9s",
   },

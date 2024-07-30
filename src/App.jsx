@@ -15,6 +15,9 @@ import ExecutiveTwin from './components/ExecutiveTwin';
 import ExecutiveRoom from './components/ExecutiveRoom'
 import Superior from './components/Superior';
 import MapDirection from './components/MapDirection';
+import GalleryPage from './components/GalleryPage';
+import Contact from './components/Contact';
+import Appointment from './components/Appointment';
 
 
 
@@ -34,11 +37,15 @@ const App = () => {
                 <Route path='/superior-standard-room' element={<StandardSuiteRoom />} />
                 <Route path='/executive-room' element={<ExecutiveRoom />   } />
                 {/* Rooms with error  */}
-                <Route path='/executive-twin-room' element={<ExecutiveTwin />} /> 
+                <Route path='/executive-twin-rooms' element={<ExecutiveTwin />} /> 
                 <Route path='/superior-standard-room-double' element={<Superior />} />
                 {/* map and direction  */}
 
                 <Route path='/map-direction' element={<MapDirection /> } />
+                <Route path='/gallery' element={<GalleryPage /> } />
+                <Route path='/g' element={<GalleryPage /> } />
+                <Route path='/contact' element={<Contact /> } />
+                <Route path='/appointment' element={<Appointment /> } />
 
             </Routes>
             <Newsletter />

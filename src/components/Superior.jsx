@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Superior() {
   return (
@@ -26,9 +27,9 @@ function Superior() {
                 <div className="row py-3">
                     <div className="col-12 text-center">
                         <h1 className="display-3 text-white animated zoomIn">Executive-Twin-Rooms</h1>
-                        <a href="#" className="h4 text-white">Home</a>
+                        <Link to="/" className="h4 text-white">Home</Link>
                         <i className="far fa-circle text-white px-2"></i>
-                        <a href="#" className="h4 text-white">Executive-Twin-Rooms</a>
+                        <Link to="/superior-standard-room-double" className="h4 text-white">Executive-Twin-Rooms</Link>
                     </div>
                 </div>
             </div>
@@ -54,7 +55,7 @@ function Superior() {
                                         <img className="img-fluid" src="img/service-1.jpg" alt="Single Standard Rooms" />
                                     </div>
                                     <div className="position-relative bg-light rounded-bottom text-center p-4">
-                                        <a href="#"><h5 className="m-0">Single Standard Rooms</h5></a>
+                                        <a href="/#"><h5 className="m-0">Single Standard Rooms</h5></a>
                                     </div>
                                 </div>
                                 <div className="col-md-6 service-item wow zoomIn" data-wow-delay="0.9s">
@@ -62,7 +63,7 @@ function Superior() {
                                         <img className="img-fluid" src="img/service-2.jpg" alt="Suite Room" />
                                     </div>
                                     <div className="position-relative bg-light rounded-bottom text-center p-4">
-                                        <a href="#"><h5 className="m-0">Suite Room</h5></a>
+                                        <a href="/#"><h5 className="m-0">Suite Room</h5></a>
                                     </div>
                                 </div>
                             </div>
