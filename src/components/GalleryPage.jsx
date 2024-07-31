@@ -1,14 +1,14 @@
 import React from 'react';
 
 const images = [
-  'img/service-1.jpg',
-  'img/service-2.jpg',
-  'img/service-3.jpg',
-  'img/service-4.jpg',
-  'img/service-2.jpg',
-  'img/service-1.jpg',
-  'img/service-4.jpg',
-  'img/service-3.jpg',
+  'img/service-5.jpg',
+  'img/service-6.jpg',
+  'img/service-7.jpg',
+  'img/service-8.jpg',
+  'img/service-14.jpg',
+  'img/service-1b.jpg',
+  'img/service-1ex.jpg',
+  'img/service-triple.jpg',
 ];
 
 const GalleryPage = () => {

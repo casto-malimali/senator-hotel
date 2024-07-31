@@ -10,7 +10,7 @@ function Slider() {
             <Carousel.Caption className="d-flex flex-column align-items-center justify-content-center">
                 <div className="p-3" style={{ maxWidth: '900px' }}>
                     <h4 className="display-1 text-white mb-md-1 animated zoomIn">Welcome To Senator Hotel Arusha</h4>
-                    <Button href="appointment.html" className="btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Book Now</Button>
+                    <Button href="appointment" className="btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Book Now</Button>
                 </div>
             </Carousel.Caption>
         </Carousel.Item>
@@ -19,7 +19,7 @@ function Slider() {
             <Carousel.Caption className="d-flex flex-column align-items-center justify-content-center">
                 <div className="p-3" style={{ maxWidth: '900px' }}>
                     <h4 className="display-1 text-white mb-md-1 animated zoomIn">Welcome To Senator Hotel Arusha</h4>
-                    <Button href="appointment.html" className="btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Book Now</Button>
+                    <Button href="/appointment" className="btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Book Now</Button>
                 </div>
             </Carousel.Caption>
         </Carousel.Item>
@@ -28,7 +28,7 @@ function Slider() {
             <Carousel.Caption className="d-flex flex-column align-items-center justify-content-center">
                 <div className="p-3" style={{ maxWidth: '900px' }}>
                     <h4 className="display-1 text-white mb-md-1 animated zoomIn">Welcome To Senator Hotel Arusha</h4>
-                    <Button href="appointment.html" className="btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Book Now</Button>
+                    <Button href="/appointment" className="btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Book Now</Button>
                 </div>
             </Carousel.Caption>
         </Carousel.Item>
@@ -37,7 +37,7 @@ function Slider() {
             <Carousel.Caption className="d-flex flex-column align-items-center justify-content-center">
                 <div className="p-3" style={{ maxWidth: '900px' }}>
                     <h4 className="display-1 text-white mb-md-1 animated zoomIn">Welcome To Senator Hotel Arusha</h4>
-                    <Button href="appointment.html" className="btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Book Now</Button>
+                    <Button href="/appointment" className="btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Book Now</Button>
                 </div>
             </Carousel.Caption>
         </Carousel.Item>

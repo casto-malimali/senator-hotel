@@ -19,16 +19,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     try {
         // Server settings
         $mail->isSMTP();
-        $mail->Host = 'smtp.example.com'; // Set the SMTP server to send through
+        $mail->Host = 'mail.senatorhotel.co.tz'; 
         $mail->SMTPAuth = true;
-        $mail->Username = 'your_email@example.com'; // SMTP username
-        $mail->Password = 'your_password'; // SMTP password
+        $mail->Username = 'market@senatorhotel.co.tz'; // SMTP username
+        $mail->Password = 'Senator...2024'; // SMTP password
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-        $mail->Port = 587;
+        $mail->Port = 465;
 
         // Recipients
-        $mail->setFrom('your_email@example.com', 'Senator Hotel');
-        $mail->addAddress('info@senatorhotel.co.tz'); // Add a recipient
+        $mail->setFrom('market@senatorhotel.co.tz', 'Senator Hotel');
+        $mail->addAddress('info@senatorhotel.co.tz'); 
 
         // Content
         $mail->isHTML(true);

@@ -1,10 +1,11 @@
 <?php
+
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
- require 'src/Exception.php'; 
- require 'src/PHPMailer.php';
- require 'src/SMTP.php';
+require 'src/Exception.php';
+require 'src/PHPMailer.php';
+require 'src/SMTP.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = strip_tags(trim($_POST["name"]));
@@ -23,12 +24,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     try {
         // Server settings
         $mail->isSMTP();
-        $mail->Host = 'smtp.example.com'; // Set the SMTP server to send through
-        $mail->SMTPAuth = true;
-        $mail->Username = 'your-email@example.com'; // SMTP username
-        $mail->Password = 'your-email-password'; // SMTP password
+        $mail->Host       = 'mail.senatorhotel.co.tz';        // Set the SMTP server to send through
+        $mail->SMTPAuth   = true;                             // Enable SMTP authentication
+        $mail->Username   = 'market@senatorhotel.co.tz';
+        $mail->Password = 'Senator...2024'; // SMTP password
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-        $mail->Port = 587;
+        $mail->Port = 465;
 
         // Recipients
         $mail->setFrom($email, $name);
@@ -51,4 +52,3 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     http_response_code(403);
     echo "There was a problem with your submission, please try again.";
 }
-?>

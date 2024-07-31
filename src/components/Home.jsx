@@ -27,7 +27,7 @@ function Home() {
                                 Senator Hotel Arusha is conveniently located just a 3-minute drive from the Arusha Bus Terminal and a 30-minute drive (45km) from Kilimanjaro International Airport. For domestic flights, Arusha Airport is only 10 minutes away.
                                 <br />
                                 <br />
-                                Our guests enjoy complimentary Wi-Fi throughout the hotel and secure on-site parking. Unwind in one of our 27 comfortable rooms, each equipped with modern amenities and local touches. We offer airport transfers, shuttle services, and 24-hour customer support for your convenience.
+                                Our guests enjoy complimentary Wi-Fi throughout the hotel and secure on-site parking. Unwind in one of our 34 comfortable rooms, each equipped with modern amenities and local touches. We offer airport transfers, shuttle services, and 24-hour customer support for your convenience.
                                 <br /> 
                                 <br />
                                 Savor the world on a plate at Simanjiro Restaurant. Our experienced chefs expertly craft a diverse menu including Continental, Italian, French, Burger, Pizza, Seafood, Vegetarian, and authentic Indian cuisine—the finest in Tanzania.

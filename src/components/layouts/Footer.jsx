@@ -13,7 +13,7 @@ function Footer() {
                 <a className="text-light mb-2" href="/">WELCOME SENATOR HOTEL</a>
                 <a className="text-light mb-2" href="/#">P.O.BOX 15666, ARUSHA-TANZANIA</a>
                 <a className="text-light mb-2" href="/#">General info: +255 766 007 599</a>
-                <a className="text-light mb-2" href="/#">Customer Care: +255 789 746 464</a>
+                {/* <a className="text-light mb-2" href="/#">Customer Care: +255 789 746 464</a> */}
               </div>
             </div>
             <div className="col-lg-3 col-md-6">
@@ -29,8 +29,8 @@ function Footer() {
             <div className="col-lg-3 col-md-6">
               <h3 className="text-white mb-4">Get In Touch</h3>
               <p className="mb-2"><i className="bi bi-geo-alt text-primary me-2"></i>Father Babu Road, Arusha, Tanzania</p>
-              <p className="mb-2"><i className="bi bi-envelope-open text-primary me-2"></i>info@senatorhotel.co.tz</p>
-              <p className="mb-0"><i className="bi bi-telephone text-primary me-2"></i>+255 766 007 599</p>
+              <p className="mb-2"><i className="bi bi-envelope-open text-primary me-2"></i><a href="mailto:info@senatorhotel.co.tz" style={ {color: 'white'}}>info@senatorhotel.co.tz</a></p>
+              <p className="mb-0"><i className="bi bi-telephone text-primary me-2"></i><a href="tel:+255766007599" style={ {color: 'white'}}>+255 766 007 599</a></p>
             </div>
             <div className="col-lg-3 col-md-6">
               <h3 className="text-white mb-4">Follow Us</h3>
