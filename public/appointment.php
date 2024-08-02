@@ -2,6 +2,7 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
+include 'variable.php';
  require 'src/Exception.php'; 
  require 'src/PHPMailer.php';
  require 'src/SMTP.php';
@@ -22,7 +23,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->Host = 'mail.senatorhotel.co.tz'; 
         $mail->SMTPAuth = true;
         $mail->Username = 'market@senatorhotel.co.tz'; // SMTP username
-        $mail->Password = 'Senator...2024'; // SMTP password
+        $mail->Password = $password; // SMTP password
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port = 465;
 
